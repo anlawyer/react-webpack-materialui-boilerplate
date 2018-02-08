@@ -1,5 +1,6 @@
-import React, {Component}  from 'react'
-import {Link} from 'react-router'
+import React, {Component} from 'react';
+import {Link} from 'react-router';
+import Box from './box.js';
 
 export default class LandingPage extends Component {
   constructor(props) {
@@ -10,6 +11,7 @@ export default class LandingPage extends Component {
     return (
       <div>
         <p>Hello World!</p>
+        <Box />
       </div>
     )
   }
